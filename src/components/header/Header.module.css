@@ -1,0 +1,31 @@
+.container {
+  display: flex !important;
+}
+
+header {
+  padding: 18px 0px;
+  border-bottom: 1px solid #00000021;
+}
+
+.logo {
+  padding-left: 24px !important;
+}
+
+.bars {
+  width: 24px;
+  height: 24px;
+}
+
+input {
+  color: #000;
+  padding: 10px 8px;
+  align-self: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 2px;
+  border: 1px solid var(--light-secondary, rgba(0, 0, 0, 0.22));
+  background: #FFF;
+  box-shadow: 1px 1px 2px 0px rgba(211, 211, 211, 0.25) inset;
+}
